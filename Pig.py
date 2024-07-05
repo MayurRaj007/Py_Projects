@@ -50,4 +50,4 @@ while max(player_scores) < max_score:
 
 max_score = max(player_scores)
 winning_idx = player_scores.index(max_score)
-print("Player ",winning_idx + 1, "won with score: ", max_score)
+print("Player",winning_idx + 1, "won with score: ", max_score)
